@@ -1,0 +1,71 @@
+.inputCard {
+  padding: 30px 20px;
+}
+
+.addnewpassword {
+  color: #f8fafc;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.input {
+  display: flex;
+  background-color: #f8fafc;
+  border: 1px solid #94a3b8;
+  margin: 15px 0;
+  border-radius: 5px;
+}
+
+.imagDiv {
+  padding: 10px;
+  border-right: 1px solid #94a3b8;
+}
+
+.imagDiv img {
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+input {
+  padding: 10px;
+  background-color: #f8fafc;
+  outline: none;
+  border: 0;
+  color: #777e85;
+  font-weight: 600;
+}
+
+.btn {
+  text-align: right;
+}
+
+.btn button {
+  cursor: pointer;
+  padding: 8px 20px;
+  background-color: #0b69ff;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+}
+
+@media screen and (max-width: 650px) {
+  input {
+    padding: 15px 10px;
+    font-size: 16px;
+    width: 150px;
+  }
+  .imagDiv img {
+    width: 20px;
+    height: 20px;
+  }
+  .inputCard {
+    padding: 30px 20px;
+    width: 250px;
+  }
+
+  .input {
+    width: 100%;
+    margin: 15px 0;
+  }
+}

@@ -1,0 +1,82 @@
+.cardContainer {
+  padding: 10px;
+  display: flex;
+  width: 210px;
+}
+
+.card {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color: #f8fafc;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
+.data {
+  width: 65%;
+  color: #f8fafc;
+  margin: 0 10px;
+}
+
+.datadiv {
+  margin: 5px 0;
+  font-size: 15px;
+}
+
+.toShowPassword {
+  height: 25px;
+  width: 100%;
+}
+
+.tohidePassword {
+  height: 25px;
+}
+
+.tohidePassword img {
+  height: 22px;
+  width: 100%;
+}
+
+.Icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.deleteIcon img {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+.PencilIcon img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+.infoIcon img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .cardContainer {
+    padding: 10px;
+    display: flex;
+    width: 300px;
+  }
+}

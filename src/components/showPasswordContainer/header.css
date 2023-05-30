@@ -1,0 +1,87 @@
+.showpasswordheader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showpasswordtitle {
+  display: flex;
+  align-items: center;
+  color: #f8fafc;
+  font-weight: 600;
+}
+
+.showpasswordtitle span {
+  border: 1px solid #94a3b8;
+  padding: 1px 8px;
+  margin-left: 5px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.searchBar {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: #f8fafc;
+  border-radius: 5px;
+  border: 1px solid #94a3b8;
+}
+
+.searchBar input {
+  padding: 0 10px;
+}
+
+.searchBarImg {
+  border-right: 1px solid #94a3b8;
+  padding: 5px 10px 0 10px;
+}
+
+.searchBarImg img {
+  vertical-align: center;
+  width: 20px;
+  height: 20px;
+}
+
+.breakdiv {
+  width: 100%;
+  background-color: #9ba9eb;
+  border-radius: 5px;
+  height: 2px;
+  margin: 20px 0;
+}
+
+.showPasswordInput {
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.showPasswordInput input {
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 460px) {
+  .showpasswordtitle {
+    font-size: 16px;
+  }
+  .searchBar input {
+    width: 50px;
+    font-size: 12px;
+  }
+  .searchBarImg img {
+    width: 15px;
+    height: 15px;
+  }
+  .showPasswordInput {
+    font-size: 16px;
+  }
+
+  .showPasswordInput input {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+}

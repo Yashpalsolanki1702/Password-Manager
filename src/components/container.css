@@ -1,0 +1,22 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.containerforAddPassword {
+  border-radius: 10px;
+  background-color: #5763a5;
+  margin-bottom: 20px;
+}
+
+.containerforShowPassword {
+  border-radius: 10px;
+  background-color: #5763a5;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    padding: 20px;
+    height: auto;
+  }
+}
