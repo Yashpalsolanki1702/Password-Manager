@@ -1,6 +1,4 @@
 {
-  "homepage": "http://SKV6474.git.io/passwordmanager",
-  "name": "passwordmanager",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
